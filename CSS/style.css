@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", "san-serif";
+}
+body {
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+.search {
+  height: 65px;
+}
+input {
+  background-color: #ebfffc;
+  color: #555;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  width: 90%;
+  height: 60px;
+  padding: 0px 20px;
+}
+button {
+  color: #555;
+  border: 0;
+  background-color: transparent;
+}
+button:hover {
+  color: #ebfffc;
+  border: 1px solid #ebfffc;
+}
+.forecast {
+  color: #555;
+}
+.forecast .location {
+  background-color: #ebfffc;
+  text-align: center;
+  border: #555 1px solid;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 780px) {
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  button {
+    display: block;
+    margin: auto;
+  }
+  .search {
+    height: 135px;
+  }
+}
+.card-header{
+    min-height: 41px;
+}
+.card-body{
+    min-height: 262px;
+}
+.false-city-name{
+    border: 1px red solid !important; 
+}
+.true-city-name{
+    border: 0 !important; 
+}
